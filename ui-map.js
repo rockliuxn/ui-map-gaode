@@ -211,7 +211,7 @@
                         if(!$window.AMap) {
                             var script = document.createElement("script");
                             script.type = "text/javascript";
-                            script.src = "http://webapi.amap.com/maps?" + param(params);
+                            script.src = "https://webapi.amap.com/maps?" + param(params);
                             document.body.appendChild(script);
                         }else {
                             mapgaodeLoadedCallback();
